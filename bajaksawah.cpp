@@ -12,9 +12,9 @@ if (i*j == N) {
 if (abs(R-C) > abs(i-j)) {
 R = i;
 C = j;
-}
-}
-}
+            }
+        }
+    }
 }
 printf("%d %d\n", R, C);
 }
